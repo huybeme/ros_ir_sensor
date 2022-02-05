@@ -15,7 +15,7 @@ class ir_distance_listener_node(Node):
 
 
         self.subscriber_ = self.create_subscription(
-            String, "ir_distance", self.callback_ir_distances, 10)
+            Float64, "ir_distance", self.callback_ir_distances, 10)
         self.get_logger().info("listening to ir sensor...")
 
     def callback_ir_distances(self, msg):
