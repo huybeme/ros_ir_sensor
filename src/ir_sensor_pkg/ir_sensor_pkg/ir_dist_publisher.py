@@ -23,7 +23,7 @@ class ir_dist_publisher_node(Node):
 
         self.publish_dist = self.create_publisher(
             msg_type=String, topic="ir_distance", qos_profile=10)
-        self.timer = self.create_timer(1.0, self.publish_dist)
+        self.timer = self.create_timer(1.0, self.publish_distance)
 
         self.get_logger().info("ir sensor publisher started.")
 
