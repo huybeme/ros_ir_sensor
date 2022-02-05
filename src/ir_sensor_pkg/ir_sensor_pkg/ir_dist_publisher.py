@@ -29,7 +29,7 @@ class ir_dist_publisher_node(Node):
 
     def publish_distance(self):
         msg = String()
-        msg.data = "hello world"
+        msg.data = str(self.dist)
         self.publish_dist.publish(msg)
 
     def ReadChannel(self, channel):
