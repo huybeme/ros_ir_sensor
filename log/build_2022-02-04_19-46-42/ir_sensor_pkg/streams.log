@@ -1,0 +1,36 @@
+[0.524s] Invoking command in '/home/hle/Desktop/compsci/ros/ir_sensor/src/ir_sensor_pkg': PYTHONPATH=/home/hle/Desktop/compsci/ros/ir_sensor/install/ir_sensor_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ir_sensor_pkg build --build-base /home/hle/Desktop/compsci/ros/ir_sensor/build/ir_sensor_pkg/build install --prefix /home/hle/Desktop/compsci/ros/ir_sensor/install/ir_sensor_pkg --record /home/hle/Desktop/compsci/ros/ir_sensor/build/ir_sensor_pkg/install.log --single-version-externally-managed
+[0.738s] running egg_info
+[0.738s] creating ../../build/ir_sensor_pkg/ir_sensor_pkg.egg-info
+[0.739s] writing ../../build/ir_sensor_pkg/ir_sensor_pkg.egg-info/PKG-INFO
+[0.739s] writing dependency_links to ../../build/ir_sensor_pkg/ir_sensor_pkg.egg-info/dependency_links.txt
+[0.739s] writing entry points to ../../build/ir_sensor_pkg/ir_sensor_pkg.egg-info/entry_points.txt
+[0.739s] writing requirements to ../../build/ir_sensor_pkg/ir_sensor_pkg.egg-info/requires.txt
+[0.739s] writing top-level names to ../../build/ir_sensor_pkg/ir_sensor_pkg.egg-info/top_level.txt
+[0.740s] writing manifest file '../../build/ir_sensor_pkg/ir_sensor_pkg.egg-info/SOURCES.txt'
+[0.771s] reading manifest file '../../build/ir_sensor_pkg/ir_sensor_pkg.egg-info/SOURCES.txt'
+[0.772s] writing manifest file '../../build/ir_sensor_pkg/ir_sensor_pkg.egg-info/SOURCES.txt'
+[0.772s] running build
+[0.772s] running build_py
+[0.773s] creating /home/hle/Desktop/compsci/ros/ir_sensor/build/ir_sensor_pkg/build
+[0.773s] creating /home/hle/Desktop/compsci/ros/ir_sensor/build/ir_sensor_pkg/build/lib
+[0.773s] creating /home/hle/Desktop/compsci/ros/ir_sensor/build/ir_sensor_pkg/build/lib/ir_sensor_pkg
+[0.773s] copying ir_sensor_pkg/__init__.py -> /home/hle/Desktop/compsci/ros/ir_sensor/build/ir_sensor_pkg/build/lib/ir_sensor_pkg
+[0.773s] copying ir_sensor_pkg/ir_dist_publisher.py -> /home/hle/Desktop/compsci/ros/ir_sensor/build/ir_sensor_pkg/build/lib/ir_sensor_pkg
+[0.775s] running install
+[0.776s] running install_lib
+[0.776s] creating /home/hle/Desktop/compsci/ros/ir_sensor/install/ir_sensor_pkg/lib/python3.8/site-packages/ir_sensor_pkg
+[0.777s] copying /home/hle/Desktop/compsci/ros/ir_sensor/build/ir_sensor_pkg/build/lib/ir_sensor_pkg/__init__.py -> /home/hle/Desktop/compsci/ros/ir_sensor/install/ir_sensor_pkg/lib/python3.8/site-packages/ir_sensor_pkg
+[0.777s] copying /home/hle/Desktop/compsci/ros/ir_sensor/build/ir_sensor_pkg/build/lib/ir_sensor_pkg/ir_dist_publisher.py -> /home/hle/Desktop/compsci/ros/ir_sensor/install/ir_sensor_pkg/lib/python3.8/site-packages/ir_sensor_pkg
+[0.777s] byte-compiling /home/hle/Desktop/compsci/ros/ir_sensor/install/ir_sensor_pkg/lib/python3.8/site-packages/ir_sensor_pkg/__init__.py to __init__.cpython-38.pyc
+[0.778s] byte-compiling /home/hle/Desktop/compsci/ros/ir_sensor/install/ir_sensor_pkg/lib/python3.8/site-packages/ir_sensor_pkg/ir_dist_publisher.py to ir_dist_publisher.cpython-38.pyc
+[0.779s] running install_data
+[0.779s] creating /home/hle/Desktop/compsci/ros/ir_sensor/install/ir_sensor_pkg/share/ament_index
+[0.779s] creating /home/hle/Desktop/compsci/ros/ir_sensor/install/ir_sensor_pkg/share/ament_index/resource_index
+[0.779s] creating /home/hle/Desktop/compsci/ros/ir_sensor/install/ir_sensor_pkg/share/ament_index/resource_index/packages
+[0.779s] copying resource/ir_sensor_pkg -> /home/hle/Desktop/compsci/ros/ir_sensor/install/ir_sensor_pkg/share/ament_index/resource_index/packages
+[0.779s] copying package.xml -> /home/hle/Desktop/compsci/ros/ir_sensor/install/ir_sensor_pkg/share/ir_sensor_pkg
+[0.780s] running install_egg_info
+[0.781s] Copying ../../build/ir_sensor_pkg/ir_sensor_pkg.egg-info to /home/hle/Desktop/compsci/ros/ir_sensor/install/ir_sensor_pkg/lib/python3.8/site-packages/ir_sensor_pkg-0.0.0-py3.8.egg-info
+[0.782s] running install_scripts
+[0.797s] writing list of installed files to '/home/hle/Desktop/compsci/ros/ir_sensor/build/ir_sensor_pkg/install.log'
+[0.815s] Invoked command in '/home/hle/Desktop/compsci/ros/ir_sensor/src/ir_sensor_pkg' returned '0': PYTHONPATH=/home/hle/Desktop/compsci/ros/ir_sensor/install/ir_sensor_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ir_sensor_pkg build --build-base /home/hle/Desktop/compsci/ros/ir_sensor/build/ir_sensor_pkg/build install --prefix /home/hle/Desktop/compsci/ros/ir_sensor/install/ir_sensor_pkg --record /home/hle/Desktop/compsci/ros/ir_sensor/build/ir_sensor_pkg/install.log --single-version-externally-managed

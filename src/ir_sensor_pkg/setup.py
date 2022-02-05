@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            "ir_dist_publisher = ir_sensor_pkg.ir_dist_publisher:main",
         ],
     },
 )
