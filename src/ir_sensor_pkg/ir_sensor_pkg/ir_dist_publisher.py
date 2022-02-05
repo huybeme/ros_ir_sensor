@@ -31,7 +31,7 @@ class ir_dist_publisher_node(Node):
     def publish_distance(self):
         msg = Float64()
         msg.data = self.dist
-        self.publish_dist.publish(str(msg))
+        self.publish_dist.publish(msg)
 
     def ReadChannel(self, channel):
         val = ir_sensor.xfer2([1, (8+channel) << 4, 0])
