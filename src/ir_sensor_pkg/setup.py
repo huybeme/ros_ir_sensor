@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             "ir_dist_publisher = ir_sensor_pkg.ir_dist_publisher:main",
+            "ir_dist_listener = ir_sensor_pkg.ir_dist_listener:main",
         ],
     },
 )

@@ -9,6 +9,7 @@ setup.py
 ../../build/ir_sensor_pkg/ir_sensor_pkg.egg-info/top_level.txt
 ../../build/ir_sensor_pkg/ir_sensor_pkg.egg-info/zip-safe
 ir_sensor_pkg/__init__.py
+ir_sensor_pkg/ir_dist_listener.py
 ir_sensor_pkg/ir_dist_publisher.py
 resource/ir_sensor_pkg
 test/test_copyright.py

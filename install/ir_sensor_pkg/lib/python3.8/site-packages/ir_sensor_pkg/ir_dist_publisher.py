@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 import rclpy
-from rclpy import Node
+from rclpy.node import Node
 import spidev
+
+from example_interfaces.msg import String
 
 """
     source code for ir sensor and modified for ros implementation from:
@@ -20,13 +22,15 @@ class ir_dist_publisher_node(Node):
         self.dist = 16.2537 * v**4 - 129.893 * v**3 + 382.268 * v**2 - 512.611 * v + 301.439
 
         self.publish_dist = self.create_publisher(
-            msg_type=float, topic="ir_distance", qos_profile=10)
-        self.timer = self.create_timer(1.0, self.publish_dist)
+            msg_type=String, topic="ir_distance", qos_profile=10)
+        self.timer = self.create_timer(1.0, self.publish_distance)
 
         self.get_logger().info("ir sensor publisher started.")
 
     def publish_distance(self):
-        self.publish_dist.publish(str(self.dist))
+        msg = String()
+        msg.data = str(self.dist)
+        self.publish_dist.publish(msg)
 
     def ReadChannel(self, channel):
         val = ir_sensor.xfer2([1, (8+channel) << 4, 0])
